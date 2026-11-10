@@ -1,4 +1,4 @@
-# Exported dataset for etam12 / etam12-project-1
+# Exported dataset
 
 To import this data into a new Edge Impulse project, either use:
 
