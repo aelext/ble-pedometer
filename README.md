@@ -17,7 +17,7 @@ flowchart LR
     E --> G[iOS app]
 ```
 
-1. The board fills a window of accelerometer samples and flags candidate steps (spikes in acceleration above 1.2 g).
+1. The board fills a window of accelerometer samples and flags candidate steps (spikes in acceleration >1.2 g).
 2. The model classifies the window as `Walking` or `Idle`.
 3. Steps are only counted if the model says `Walking` with at least 70% confidence.
 4. The new total is sent to the iOS app over BLE.
