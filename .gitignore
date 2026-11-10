@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Arduino build output
+build/
+*.bin
+*.hex
+*.elf
+*.uf2
+
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
